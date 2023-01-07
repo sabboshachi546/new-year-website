@@ -6,7 +6,8 @@ section{
 }
 /* banner section */
 .banner{
-    background-image: url('../images/banner/banner1.png');
+    background-image: url('../images/banner/banner2.png');
+    width: 100%;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,7 +26,7 @@ section{
    margin: 15px auto;
    color: #747474;
 } 
- .contact-btn{
+ .primary-btn{
     font-size: 25px;
     font-weight: 600;
     color: #fff;
@@ -61,6 +62,34 @@ main{
 .fa-check{
     color: #15b930;
     margin-right: 3px;
+}
+/* services section */
+.services-title{
+    font-size: 45px;
+    text-align: center;
+}
+.services-items{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+  
+}
+.services-item{
+    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 30px;
+}
+.services-item img{
+    width: 60px;
+    font-size: 25px;
+}
+.services-item-description{
+    font-size: 18px;
+    color: #747474;
+    margin-bottom: 15px;
+}
+.services-item-title{
+    margin: 15px auto;
 }
 /* plan section */
 .plan-title{
