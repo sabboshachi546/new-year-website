@@ -20,7 +20,7 @@ section{
 
 }
 .banner-content{
-    padding: 180px 150px 120px 860px;
+    padding: 180px 120px 120px 842px;
     text-align: right;
 }
 .banner-title{
@@ -50,20 +50,21 @@ main{
 }
 .previous-content{
     padding: 150px 120px 100px 60px;
-    color: #747474;
 }
 .previous-content-title{
     font-size: 35px;
     font-weight: 700;
-    padding-right:100px ;
 }
 .previous-content-description{
     margin: 16px auto;
+    font-size: 14px;
+    color: #747474;
 }
 .previous-content ul li{
     list-style: none;
     margin-left: -40px;
     margin-bottom: 6px;
+    color: #747474;
 }
 .fa-check{
     color: #15b930;
@@ -90,7 +91,6 @@ main{
     font-size: 25px;
 }
 .services-item-description{
-    font-size: 18px;
     color: #747474;
     margin-bottom: 15px;
 }
