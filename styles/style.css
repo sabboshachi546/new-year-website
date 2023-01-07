@@ -6,7 +6,7 @@ section{
 }
 /* banner section */
 .banner{
-    background-image: url('/images/banner/banner1.png');
+    background-image: url('../images/banner/banner1.png');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ main{
 }
 /* contact section */
 .contact{
-    background-image: linear-gradient(to right, rgba(16, 231, 52, 0.4), rgba(198, 236, 217, 0.4)),url('/images/watch.png');
+    background-image: linear-gradient(to right, rgba(16, 231, 52, 0.4), rgba(198, 236, 217, 0.4)),url('../images/watch.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 30px;
@@ -139,4 +139,5 @@ main{
     border-radius: 5px;
     padding: 12px 20px;
     margin-bottom: 15px;
+    color: #fff;
 }
