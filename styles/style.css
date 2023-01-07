@@ -5,6 +5,11 @@ section{
     margin-top: 130px;
 }
 /* banner section */
+.header{
+    background-image: url('../images/banner/banner2.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;}
 .banner{
     background-image: url('../images/banner/banner2.png');
     width: 100%;
