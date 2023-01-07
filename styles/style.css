@@ -34,9 +34,8 @@ section{
 } 
  .primary-btn{
     font-size: 25px;
-    font-weight: 600;
     color: #fff;
-    padding: 10px 15px;
+    padding: 8px 15px;
     background-color: #f70b0b;
     border: none;
     border-radius: 5px;
@@ -46,6 +45,7 @@ main{
 }
 /* previous section */
 .previous{
+    margin-top: 70px;
     display: flex;
 }
 .previous-content{
@@ -82,9 +82,10 @@ main{
   
 }
 .services-item{
-    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 6px 8px 6px rgba(0, 0, 0, 0.4);
     border-radius: 8px;
     padding: 30px;
+    text-align: center;
 }
 .services-item img{
     width: 60px;
@@ -100,7 +101,7 @@ main{
 .services-item .primary-btn{
     font-size: 18px;
     font-weight: 400;
-    margin-left: 20px;
+    margin-top: 18px;
 }
 /* plan section */
 .plan-title{
@@ -137,14 +138,14 @@ main{
 .secondary-btn{
     background-color: #fff;
     color: #f70b0b;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 18px;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
 }
 /* footer section */
 .footer{
+    margin-top: 80px;
     background-color: #000;
     color: #fff;
     display: flex;
@@ -156,7 +157,7 @@ main{
 }
 .footer-content-title{
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 800;
 }
 .footer-content-description{
     font-size: 14px;
@@ -172,12 +173,14 @@ main{
 }
 .form-title{
     margin-bottom: 12px;
+    font-size: 25px;
+    font-weight: 700;
 }
 .email{
     border: 1px solid #fff;
     background-color: #000;
     border-radius: 5px;
-    padding: 12px 20px;
+    padding: 12px 25px;
     margin-bottom: 15px;
     color: #fff;
 }
