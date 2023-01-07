@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+section{
+    margin-top: 130px;
+}
+/* banner section */
+.banner{
+    background-image: url('/images/banner/banner1.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.banner-content{
+    padding: 180px 150px 120px 860px;
+    text-align: right;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner-description{
+   font-size: 14px;
+   margin: 15px auto;
+   color: #747474;
+} 
+ .contact-btn{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #f70b0b;
+    border: none;
+    border-radius: 5px;
+}
+main{
+    padding: 40px 200px;
+}
+/* previous section */
+.previous{
+    display: flex;
+}
+.previous-content{
+    padding: 150px 120px 100px 60px;
+    color: #747474;
+}
+.previous-content-title{
+    font-size: 35px;
+    font-weight: 700;
+    padding-right:100px ;
+}
+.previous-content-description{
+    margin: 16px auto;
+}
+.previous-content ul li{
+    list-style: none;
+    margin-left: -40px;
+    margin-bottom: 6px;
+}
+.fa-check{
+    color: #15b930;
+    margin-right: 3px;
+}
+/* plan section */
+.plan-title{
+    font-size: 55px;
+    text-align: center;
+    font-weight: 700;
+}
+.plan-items{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.plan-item-title{
+   margin: 10px auto;
+}
+.plan-item-description{
+    color: #747474;
+}
+/* contact section */
+.contact{
+    background-image: linear-gradient(to right, rgba(16, 231, 52, 0.4), rgba(198, 236, 217, 0.4)),url('/images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 5px;
+}
+.contact-title{
+    font-size: 40px;
+    color: #fff;
+    padding-right: 450px;
+    margin-bottom: 15px;
+}
+.secondary-btn{
+    background-color: #fff;
+    color: #f70b0b;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+/* footer section */
+.footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    padding: 60px 200px;
+    gap: 40px;
+}
+.footer-content{
+   margin: auto 400px auto 0;
+}
+.footer-content-title{
+    font-size: 35px;
+    font-weight: 600;
+}
+.footer-content-description{
+    font-size: 14px;
+    margin: 12px auto;
+}
+.footer-link{
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+.footer-item img{
+    width: 30px;
+}
+.form-title{
+    margin-bottom: 12px;
+}
+.email{
+    border: 1px solid #fff;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+}
