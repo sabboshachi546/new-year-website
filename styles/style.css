@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 section{
     margin-top: 130px;
@@ -95,6 +96,11 @@ main{
 }
 .services-item-title{
     margin: 15px auto;
+}
+.services-item .primary-btn{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
 }
 /* plan section */
 .plan-title{
